@@ -1,0 +1,7 @@
+interface:
+  display_name: GG → Promote Staging To Production → PR Handoff
+  short_description: Open or inspect staging-to-production promotion PRs without merging or production smoke tests.
+  default_prompt: Use promote-staging-to-production/SKILL.md for staging-to-production PR creation, reuse, plain-language progress updates, inferred PR metadata, readiness inspection, and production handoff reporting.
+  brand_color: '#6366f1'
+  icon_large: ./assets/icon-large.png
+  icon_small: ./assets/icon-small.svg

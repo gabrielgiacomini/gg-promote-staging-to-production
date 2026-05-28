@@ -1,0 +1,18 @@
+**The Four Questions**
+
+1. Verb: promote
+2. Object: a clipboard at a shipping dock where every box gets checked before going the truck
+3. Animal: a delivery dog sniffing every package at the door and rejecting anything addressed to "Occupant" because it's not good enough for the official manifests
+4. Most annoying manual task: visiting every warehouse shelf, comparing what's stamped on each box to the master manifest, noting which boxes have wrong stamps or no stamps, and writing a full report without actually loading anything onto the truck
+
+**The Reality**
+
+This skill is basically the clipboard-wielding enforcer standing between staging and production. It doesn't touch the actual boxes - it's not allowed to load the truck - but it will check every single box destined for the production truck, make sure the labels match the approved shipping manifest, and write you a detailed report of everything that's wrong before any human signs off. It will find existing shipment orders instead of creating new ones, reject any box with the wrong shipping address, and triple-check that nobody sneak-attempted to ship directly from development instead of the official staging warehouse.
+
+**The Superpower and the Mockery**
+
+It thinks it's a detective but it's really just a very dedicated clipboard enthusiast with GitHub API access. It will hunt down every staging-to-production pull request, validate its title against the master manifest like a bureaucrat on a power trip, and refuse to let the shipment proceed if even a single label is misaligned. It has zero authority to merge anything onto the production truck - that's someone else's job - but it will happily tell you exactly why your truck can't leave yet. It'll even flag boxes that don't need shipping because staging and production already have the exact same contents, saving everyone the administrative headache of processing empty paperwork.
+
+**The Limitations**
+
+It cannot create production branches, deploy code, verify that your deployed website actually works, or override the shipping rules no matter how nicely you ask. It also gets confused if you try to ship from main or development instead of the official staging warehouse - that's simply not how the logistics chain works.
